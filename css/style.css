@@ -1,0 +1,178 @@
+/* Estilo general */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #F4F6FC;
+}
+
+/* Contenedor del logo, enlaces y botón */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  padding: 3rem 2rem;
+  position: relative;
+}
+
+/* Logo */
+.logo {
+  position: absolute;
+  left: 20%;
+}
+
+/* Botón a la derecha */
+.button-blue {
+  position: absolute;
+  right: 22.7%; /* ajusta según el diseño */
+  padding: 1rem;
+  background-color: #072AC8;
+}
+
+/* Enlaces */
+.menu-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Enlaces sin subrayado */
+.menu-links a {
+  text-decoration: none;
+  color: #072AC8;
+  font-weight:bold;
+}
+.menu-links a:hover{
+  text-decoration: underline;
+
+}
+/* Hero */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  padding: 3em;
+}
+
+.main-text {
+  width: 50%;
+  text-align: left;
+  padding: 1em;
+}
+
+h1{
+  font-size: 3rem;
+}
+h2{
+  font-weight: normal;
+}
+
+.guy-area {
+  position: relative;
+  width: 35%;
+  min-width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.guy img {
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  position: relative;
+}
+
+/* Tarjetas flotantes */
+.icon-card {
+  position: absolute;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 250px; /* Ajusta según el diseño */
+  z-index: 2;
+}
+
+.icon-card img {
+  width: 100%;
+  height: auto;
+}
+
+/* Primera tarjeta arriba a la izquierda */
+.icon-card.top-left {
+  top: 20%;
+  left: 10%;
+  transform: translate(-40%, -40%);
+}
+
+/* Segunda tarjeta abajo a la derecha */
+.icon-card.bottom-right {
+  bottom: 5%;
+  right: 10%;
+  transform: translate(40%, 40%);
+}
+
+.buttons-area{
+  width: 50%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.btn-blue {
+  padding: 1rem;
+  background-color: #072AC8;
+  color: white;
+}
+
+.btn-blue a:hover{
+  color: #FFC600;
+}
+.btn-grey {
+  padding: 1rem;
+  color: rgb(79, 79, 79);
+  text-decoration: none;
+  font-weight:bold;
+}
+
+.btn-grey a:hover{
+  text-decoration: underline;
+
+}
+
+/*Section clients*/
+
+.grid-clients {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 👈 Fuerza 5 columnas iguales */
+  gap: 2rem;
+  max-width: 1150px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.grid-clients article {
+  width: 50%;  
+  transition: transform 0.3s ease;
+}
+/* Escala al hacer hover */
+.grid-clients article:hover {
+  transform: scale(1.05);
+}
+
+/* Logos en gris inicialmente */
+.grid-clients img {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+  width: 100%;
+  margin: 60%;
+}
+
+/* Al pasar el mouse, vuelven al color */
+.grid-clients article:hover img {
+  filter: grayscale(0%);
+}
