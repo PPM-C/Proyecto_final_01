@@ -5,7 +5,24 @@ body {
   background-color: #F4F6FC;
 }
 
-/* Contenedor del logo, enlaces y botón */
+h1{
+  font-size: 3rem;
+  color: #292E47;
+}
+
+h2{
+  font-size: 2rem;
+  color: #292E47;
+}
+
+h3{
+  font-size: 1.4rem;}
+p{
+  color: #6B708D;
+}
+
+
+/* NAVBAR */
 .header {
   display: flex;
   align-items: center;
@@ -49,7 +66,7 @@ body {
   text-decoration: underline;
 
 }
-/* Hero */
+/* HERO SECTION */
 .hero {
   display: flex;
   flex-wrap: wrap;
@@ -66,11 +83,10 @@ body {
   padding: 1em;
 }
 
-h1{
-  font-size: 3rem;
-}
-h2{
+.txt-hero{
+  font-size: 1.5rem;
   font-weight: normal;
+  color: #292E47;
 }
 
 .guy-area {
@@ -94,7 +110,7 @@ h2{
   position: absolute;
   padding: 1rem;
   border-radius: 1rem;
-  width: 250px; /* Ajusta según el diseño */
+  width: 250px;
   z-index: 2;
 }
 
@@ -103,26 +119,28 @@ h2{
   height: auto;
 }
 
-/* Primera tarjeta arriba a la izquierda */
+/* Tarjeta izquierda */
 .icon-card.top-left {
   top: 20%;
   left: 10%;
   transform: translate(-40%, -40%);
 }
 
-/* Segunda tarjeta abajo a la derecha */
+/* Tarjeta derecha */
 .icon-card.bottom-right {
   bottom: 5%;
   right: 10%;
   transform: translate(40%, 40%);
 }
 
+/*Butons*/
 .buttons-area{
   width: 50%;
   display: flex;
   justify-content: left;
   align-items: center;
 }
+
 .btn-blue {
   padding: 1rem;
   background-color: #072AC8;
@@ -144,27 +162,28 @@ h2{
 
 }
 
-/*Section clients*/
+/*SECTION CLIENTS*/
 
 .grid-clients {
   display: grid;
   grid-template-columns: repeat(5, 1fr); /* 👈 Fuerza 5 columnas iguales */
   gap: 2rem;
-  max-width: 1150px;
+  max-width: 1120px;
   margin: 0 auto;
   align-items: center;
+  margin-top: 1%;
 }
 
 .grid-clients article {
   width: 50%;  
   transition: transform 0.3s ease;
 }
-/* Escala al hacer hover */
+/* Hover chachi */
 .grid-clients article:hover {
   transform: scale(1.05);
 }
 
-/* Logos en gris inicialmente */
+/* Logos en gris*/
 .grid-clients img {
   filter: grayscale(100%);
   transition: filter 0.3s ease;
@@ -172,7 +191,186 @@ h2{
   margin: 60%;
 }
 
-/* Al pasar el mouse, vuelven al color */
+/* Logos color */
 .grid-clients article:hover img {
   filter: grayscale(0%);
+}
+
+/*SECTION PROJECTS*/
+.projects{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); 
+  max-width: 1020px; 
+  margin: 0 auto;
+  margin-top: 3%;
+}
+
+.grid-projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 2.8rem;
+  max-width: 1020px;
+  margin: 0 auto;
+  margin-top: 3%;
+  align-items: center;
+}
+
+.grid-projects article {
+  width: 100%;
+  background-color: white;
+}
+.grid-projects article:hover {
+  box-shadow: 
+      0 0 10px rgba(37, 37, 37, 0.6),  /* luz suave alrededor */
+      0 0 30px rgba(23, 23, 23, 0.3),  /* halo más difuso */
+      inset 0 0 10px rgba(229, 229, 229, 0.2); /* iluminación interior */
+}
+.grid-projects article img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.grid-projects article h3{
+  margin: 7%;
+  margin-bottom: 2%;
+}
+
+.grid-projects article p{
+  margin: 7%;
+}
+.btn-general{ 
+  color: #072AC8;
+  font-weight:bold;
+  text-decoration: none;
+}
+.btn-general a:hover {
+  text-decoration: underline;
+}
+
+/*SECTION TESTIMONIALS*/
+.rectangle {
+  background-color: #292E47;
+  width: 1200px;
+  height: 450px;
+  margin: 0 auto;
+  margin-top: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column; /* Apila los elementos verticalmente */
+}
+.opinion div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem; /* Espacio entre imagen y texto */
+  margin-top: 1.5rem;
+}
+
+ .rectangle div h2 {
+  text-align: center;
+  color: white;
+  font-size: 2.5rem;           
+}
+
+.txt-div{
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #FFC600;
+  text-align: center;
+}
+
+.circle-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.person-info {
+  color: white;
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.3;
+}
+/*SECTION SERVICES*/
+.blue-circle{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #D1EDFF;
+  object-fit: cover;
+  margin:7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*SECTION SUSCRIBE*/
+.rectangle-yellow{
+  background-color: #fce300;
+  width: 1200px;
+  height: 450px;
+  margin: 0 auto;
+  margin-top: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column; /* Apila los elementos verticalmente */
+}
+
+form input{
+  width: 450px;
+  height: 50px;
+  font-size: 1.3rem;
+  text-align: center;
+}
+form button{
+  width: 150px;
+  height: 56px;
+  background-color: #072AC8;
+  color: white;
+  padding-top: 0.5%;
+  margin-left: 15px;
+  font-size: 1.3rem;
+}
+
+form button:hover{
+  color: #FFC600;
+}
+/*FOOTER*/
+footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  max-width: 900px; 
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.footer-left{
+    width: 55%;  
+}
+
+address{
+  margin-top: 20%;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column; /* Pone las dos listas una debajo de la otra */
+  gap: 0; /* Espacio entre las dos listas */
+}
+
+.footer-right ul {
+  list-style: none;
+  display: flex;            /* Hace que los <li> estén en fila */
+  gap: 6rem;                /* Espacio entre enlaces */
+  padding: 0;
+  margin: 0;
+  margin-bottom: 5%;
+  text-decoration: none;
+  color: #292E47;
 }
