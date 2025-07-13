@@ -61,7 +61,7 @@ To run the project locally:
 
 **Clone the repository:**
 
-git clone [https://github.com/Ramix76/circle-project](https://github.com/PPM-C/Proyecto_final_01)
+git clone [https://github.com/PPM-C/Proyecto_final_01](https://github.com/PPM-C/Proyecto_final_01)
 
 ## 💻 Deploy
 
