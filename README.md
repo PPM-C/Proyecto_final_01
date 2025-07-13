@@ -1,6 +1,6 @@
 # Circle Agency Projects
 
-## Project Overview: Cicle Agency Website
+## 🌐 Project Overview: Cicle Agency Website
 
 As the developer for this project, I built a modern, static web application for **Cicle Agency** to showcase their portfolio, promote services, and enable client contact.
 
@@ -9,7 +9,7 @@ The primary goal of this project was to design and develop a **responsive**, **m
 I focused on **responsive design**, **dynamic content loading**, and **clean architecture**, ensuring fast performance and scalability.
 
 
-## Technology Stack
+## 🚀 Technology Stack
 
 | Technology         | Usage           | Implementation                                |
 |--------------------|------------------|-----------------------------------------------|
