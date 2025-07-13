@@ -59,9 +59,8 @@ The application follows a **mobile-first** responsive design approach to ensure 
 
 To run the project locally:
 
-1. **Clone the repository:**
+**Clone the repository:**
 
-```bash
 git clone [https://github.com/Ramix76/circle-project](https://github.com/PPM-C/Proyecto_final_01)
 
 ## 💻 Deploy
