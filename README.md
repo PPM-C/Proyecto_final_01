@@ -1,8 +1,13 @@
 # Circle Agency Projects
 
-## Purpose and Scope
+## Project Overview: Cicle Agency Website
 
-The **Cicle Agency** website is a static web application designed to showcase the agency's portfolio, services, and facilitate client contact. The system consists of three main pages with shared resources and external service integrations. The application emphasizes **responsive design**, **dynamic content loading**, and **modern web development practices**.
+As the developer for this project, I built a modern, static web application for **Cicle Agency** to showcase their portfolio, promote services, and enable client contact.
+
+The primary goal of this project was to design and develop a **responsive**, **modern website** that effectively showcases the agency’s portfolio, details its services, and simplifies client communication. The result is a **clean**, **high-performance web application** made up of three main pages, each connected through shared resources and integrated with select external services to extend functionality without overcomplicating the stack.
+
+I focused on **responsive design**, **dynamic content loading**, and **clean architecture**, ensuring fast performance and scalability.
+
 
 ## Technology Stack
 
@@ -13,3 +18,26 @@ The **Cicle Agency** website is a static web application designed to showcase th
 | Vanilla JavaScript | Interactivity    | DOM manipulation, fetch API                   |
 | GitHub Raw API     | Data Source      | Project content via `fetch()`                 |
 | Formspree.io       | Form Processing  | Contact form submission                       |
+
+
+## 📁 Project Structure
+
+├── 📄 index.html                # Main landing page
+│
+├── 📂 css/                     # Stylesheets
+│   └── 🎨 style.css            # General site styling
+│
+├── 📂 js/                      # JavaScript logic
+│   └── ⚡ script.js            # Main functionality script
+│
+├── 📂 pages/                   # Secondary pages
+│   ├── 📄 contact.html         # Contact page
+│   └── 📄 projects.html        # Projects showcase page
+│
+└── 📂 project-assets/          # Visual and media assets
+    ├── 🖼️ hero-section/        # Hero banner images
+    ├── 🖼️ logos/               # Logos and favicons
+    ├── 🖼️ newsletter/          # Newsletter assets
+    ├── 🖼️ projects-section/    # Project section media
+    ├── 🖼️ services-section/    # Service visuals
+    └── 🖼️ testimonial-section/ # Testimonial images or quotes
