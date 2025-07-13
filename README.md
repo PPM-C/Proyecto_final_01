@@ -44,7 +44,6 @@ Cicle-Agency/
     ├── 🖼️ services-section/    # Service visuals
     └── 🖼️ testimonial-section/ # Testimonial images or quotes
 
----
 
 ## 📱 Responsive Design Strategy
 
