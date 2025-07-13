@@ -6,8 +6,6 @@ As the developer for this project, I built a modern, static web application for 
 
 The primary goal of this project was to design and develop a **responsive**, **modern website** that effectively showcases the agency’s portfolio, details its services, and simplifies client communication. The result is a **clean**, **high-performance web application** made up of three main pages, each connected through shared resources and integrated with select external services to extend functionality without overcomplicating the stack.
 
-I focused on **responsive design**, **dynamic content loading**, and **clean architecture**, ensuring fast performance and scalability.
-
 
 ## 🚀 Technology Stack
 
