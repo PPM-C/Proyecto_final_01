@@ -55,3 +55,15 @@ The application follows a **mobile-first** responsive design approach to ensure 
 - **Grid Systems:** Built with CSS Grid; column layout adjusts at breakpoints
 - **Typography:** Scalable font sizes for consistent readability on all screens
 
+## ⚙️ Installation & Usage
+
+To run the project locally:
+
+1. **Clone the repository:**
+
+```bash
+git clone [https://github.com/Ramix76/circle-project](https://github.com/PPM-C/Proyecto_final_01)
+
+## 💻 Deploy
+
+[Link to the Circle Project](https://circleagencyppm.netlify.app/)
