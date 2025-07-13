@@ -1,4 +1,3 @@
-![Cicle Agency Banner]([https://example.com/images/banner.png](https://circleagencyppm.netlify.app/project-assets/logos/circle.svg))
 # Circle Agency Project
 
 ## 🌐 Project Overview: Cicle Agency Website
