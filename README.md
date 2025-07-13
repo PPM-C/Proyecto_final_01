@@ -20,17 +20,19 @@ I focused on **responsive design**, **dynamic content loading**, and **clean arc
 | Formspree.io       | Form Processing  | Contact form submission                       |
 
 
-## 📁 Project Structure
+## 🧩 Project Structure
 
+```plaintext
+Cicle-Agency/
 ├── 📄 index.html                # Main landing page
 │
-├── 📂 css/                     # Stylesheets
+├── 📂 css/                      # Stylesheets
 │   └── 🎨 style.css            # General site styling
 │
-├── 📂 js/                      # JavaScript logic
+├── 📂 js/                       # JavaScript logic
 │   └── ⚡ script.js            # Main functionality script
 │
-├── 📂 pages/                   # Secondary pages
+├── 📂 pages/                    # Secondary pages
 │   ├── 📄 contact.html         # Contact page
 │   └── 📄 projects.html        # Projects showcase page
 │
