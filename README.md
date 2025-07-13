@@ -43,7 +43,7 @@ Cicle-Agency/
     ├── 🖼️ projects-section/    # Project section media
     ├── 🖼️ services-section/    # Service visuals
     └── 🖼️ testimonial-section/ # Testimonial images or quotes
-
+```
 ---
 
 ## 📱 Responsive Design Strategy
