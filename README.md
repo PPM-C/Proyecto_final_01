@@ -43,3 +43,15 @@ Cicle-Agency/
     ├── 🖼️ projects-section/    # Project section media
     ├── 🖼️ services-section/    # Service visuals
     └── 🖼️ testimonial-section/ # Testimonial images or quotes
+
+---
+
+## 📱 Responsive Design Strategy
+
+The application follows a **mobile-first** responsive design approach to ensure optimal performance and usability across all devices.
+
+- **Breakpoints:** `1200px`, `870px`, `770px`
+- **Navigation:** Hamburger menu for smaller viewports
+- **Grid Systems:** Built with CSS Grid; column layout adjusts at breakpoints
+- **Typography:** Scalable font sizes for consistent readability on all screens
+
